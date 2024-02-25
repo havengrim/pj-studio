@@ -2,7 +2,7 @@ import styles from "./style";
 import Navbar from "./components/Navbar"
 
 const App = () => (
-  <div className=" bg-black w-full overflow-hidden">
+  <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
